@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+video_1 {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  padding-top: 20px;
+  height: 85px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: aliceblue;
+  padding: 10px;
+}
+
+p{
+  color: aliceblue;
+  font-style: italic;
+  text-align: justify;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

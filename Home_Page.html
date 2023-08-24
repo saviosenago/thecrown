@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/Home.css">
+
+</head>
+
+<body>
+  <div class="logo"><img src="image/the_crown_white.svg" alt="" height="100%" srcset=""></div>
+  <div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/824096567?h=1fa865e0c7&autoplay=1&loop=1&title=0&byline=0&portrait=0&controls=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <header>
+    <h1>Elenco principal</h1>
+    <p>Claire Foy, Olivia Colman, Imelda Staunton,
+      Vanessa Kirby, Helena Bonham-Carter.
+    </p>
+
+    <div style="display: flex; gap: 5px;">
+      <button id="btnteste" style="display: flex; justify-content: center; gap: 5px;" class="btn">
+        <img style="width:15px ;" src="image/icons8-mais-24.png" alt="">
+        Minha lista</button>
+
+      <button style="display: flex; justify-content: center; gap: 5px;" class="btn1">
+        <img style="width: 15px;" src="image/icons8-reproduzir-30.png" /> Assistir
+      </button>
+
+    </div>
+    <!-- <h2>5 Temporadas</h2> -->
+    <div class="lista_temporada">
+      <select class="listas">
+          <option class="item" value="1">Temporada 1</option>
+          <option class="item" value="2">Temporada 2</option>
+          <option class="item" value="3">Temporada 3</option>
+          <option class="item" value="3">Temporada 4</option>
+          <option class="item" value="3">Temporada 5</option>
+          <!-- Adicione mais opções de temporadas aqui -->
+      </select>
+  </div>
+    <h1>Sinopse</h1>
+    <div class="texto">
+      <p>Sinopse: O drama conta a trajetória da rainha Elizabeth, do seu casamento, em 1947, aos dias de hoje. Cada temporada consiste em cerca de uma década de sua vida. Nos duas primeiras temporadas, a atriz Claire Foy interpretou a monarca. Na terceira, a rainha é vivida por Olivia Colman.
+        Robert é também o consultor histórico e foi responsável pela extensa pesquisa que levou o dramaturgo Peter Morgan a desenvolver o enredo da série que perpassa a trajetória do reinado da rainha Elizabeth II. A primeira temporada de The Crown é estrelada por Claire Foy, que interpreta Elizabeth II, e Matt Smith no papel de Philip, o duque de Edimburgo. O elenco conta ainda com John Lithgow como Winston Churchill, primeiro ministro britânico.
+        O que é real e o que é ficção sobre os acontecimentos da série são destrinchados na biografia, na qual Robert faz um mergulho na história da realeza e constrói um retrato íntimo da vida no Palácio de Buckingham e na famosa residência da Downing Street, moradia oficial do primeiro-ministro inglês.
+      </p>
+    </div>
+  </header>
+  <br>
+  <section class="container">
+    <div class="item"><img src="image/image1.png" alt="topimg">
+      <div class="info">
+        <a href="Conhecendo.html">Conhecendo a série</a>
+      </div>
+    </div>
+    <div class="item"><img src="image/image2.png" alt="topimg">
+      <div class="info">
+        <a href="pagina_makeof.html">Making Of</a>
+      </div>
+    </div>
+    <div class="item"><img src="image/image3.png" alt="topimg">
+      <div class="info">
+        <a href="Entrevista.html">Entrevistas com o elenco</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    #barrarolagem {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+  </style>
+  <button id="barrarolagem" onclick="scrollToTop()"><img src="image/barra.png" alt=""></button>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

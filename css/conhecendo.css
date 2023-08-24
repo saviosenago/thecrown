@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+
+#cabecalho {
+}
+
+.container {
+  max-width: 800px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+
+  position: relative;
+}
+
+.rating {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.fa-star {
+  color: #ccc;
+}
+
+.checked {
+  color: orange;
+}
+
+p {
+  color: #fff;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  color: #fff;
+  padding: 30px;
+}
+
+h2 {
+  color: rgb(255, 30, 30);
+  padding: 30px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  max-width: 10%;
+  height: auto;
+}
+.texto {
+}
